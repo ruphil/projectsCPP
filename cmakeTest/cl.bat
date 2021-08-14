@@ -1,5 +1,5 @@
 cmake -S . -B build -G "MinGW Makefiles"
 
-make -C build
+cmake --build build
 
 build\cmaketest.exe
